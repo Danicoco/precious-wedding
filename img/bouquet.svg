@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <defs>
+    <radialGradient id="r" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#9E2A3F"/><stop offset=".7" stop-color="#7A1A2C"/><stop offset="1" stop-color="#5A0F1E"/></radialGradient>
+    <radialGradient id="p" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#F2B6C1"/><stop offset="1" stop-color="#C9677C"/></radialGradient>
+    <g id="rose">
+      <circle r="20" fill="url(#r)"/>
+      <path d="M-14-6c4-10 20-12 26-2M-16 6c8 10 24 10 30-2M-8-14c10-4 20 2 20 10M-10 10c-6-8-2-18 8-20" fill="none" stroke="#4A0A17" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+      <path d="M-5-2c2-6 10-6 11 0s-6 9-10 5" fill="none" stroke="#3E0712" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <g id="leaf"><path d="M0 0C10-8 26-8 34 0 26 8 10 8 0 0Z" fill="#6E8B5E"/><path d="M2 0H30" stroke="#4F6B45" stroke-width="1"/></g>
+  </defs>
+  <path d="M100 150 100 95M100 150 84 100M100 150 118 102" stroke="#6E8B5E" stroke-width="2" fill="none"/>
+  <use href="#leaf" transform="translate(52 92) rotate(-150) scale(1.1)"/>
+  <use href="#leaf" transform="translate(150 90) rotate(-30) scale(1.1)"/>
+  <use href="#leaf" transform="translate(60 60) rotate(-170) scale(.8)"/>
+  <use href="#leaf" transform="translate(142 56) rotate(-10) scale(.8)"/>
+  <use href="#leaf" transform="translate(100 34) rotate(-95) scale(.75)"/>
+  <use href="#leaf" transform="translate(90 120) rotate(120) scale(.7)"/>
+  <use href="#leaf" transform="translate(112 118) rotate(60) scale(.7)"/>
+  <use href="#rose" transform="translate(72 74) scale(.95)"/>
+  <use href="#rose" transform="translate(128 72) scale(1)"/>
+  <use href="#rose" transform="translate(100 92) scale(1.15)"/>
+  <use href="#rose" transform="translate(100 52) scale(.85)"/>
+  <circle cx="74" cy="44" r="8" fill="url(#p)"/><circle cx="74" cy="44" r="3" fill="#B5506A"/>
+  <circle cx="132" cy="40" r="7" fill="url(#p)"/><circle cx="132" cy="40" r="2.6" fill="#B5506A"/>
+  <circle cx="146" cy="104" r="5" fill="#C9677C"/><circle cx="58" cy="108" r="5" fill="#C9677C"/>
+  <circle cx="160" cy="76" r="3" fill="#D9A23A"/><circle cx="42" cy="78" r="3" fill="#D9A23A"/><circle cx="118" cy="26" r="2.5" fill="#D9A23A"/>
+</svg>
